@@ -5,7 +5,6 @@
 
 #include<stdio.h>
 #include <stdbool.h> //Boolean values
-#include<stdlib.h> //Can be removed if there isn't any memory allocation
 
 int main(void)
 {
@@ -40,7 +39,7 @@ int main(void)
 				break;
 				
 			case 4: //Palindrome check
-				printf("Fuctionality not complete. Try again later.\n");
+				palindrome();
 				break;
 				
 			case 5: //Exit

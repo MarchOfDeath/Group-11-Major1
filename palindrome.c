@@ -1,7 +1,9 @@
+/* Remove for h file
 #include<stdio.h>
 #include <stdbool.h> //Boolean values
+*/
 
-int main(void)
+void palindrome(void)
 {
 	unsigned long int input, dupInput, triInput;
 	int binNum[32], revBinNum[32];

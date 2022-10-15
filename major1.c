@@ -6,6 +6,9 @@
 #include<stdio.h>
 #include <stdbool.h> //Boolean values
 
+// Header files
+#include "replace.h"
+
 int main(void)
 {
 	int input;

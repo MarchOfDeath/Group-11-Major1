@@ -8,6 +8,7 @@
 
 // Header files
 #include "replace.h"
+#include "palindrome.h"
 #include "reverse.h"
 int main(void)
 {
@@ -47,7 +48,7 @@ int main(void)
 				break;
 				
 			case 3: //Replace bit position
-				printf("Fuctionality not complete. Try again later.\n");
+				replace();
 				break;
 				
 			case 4: //Palindrome check

@@ -3,7 +3,21 @@
 #include <stdio.h>
 #include "replace.h"
 
-int replace()
+void main()
 {
-    
+    replace();
+
+    return;
+}
+
+void replace()
+{
+    unsigned long int nonmask = -1;
+    unsigned long int mask = 0;
+
+    printf("Please insert a positive integer less than 2,000,000,000: ");
+    scanf(" %ld", &nonmask);
+    printf("%ld\n", nonmask); // validates user input
+
+    return;
 }

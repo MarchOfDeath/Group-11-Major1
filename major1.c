@@ -34,7 +34,16 @@ int main(void)
 				break;
 				
 			case 2: //Reverse bits
-				printf("Fuctionality not complete. Try again later.\n");
+				// Input a number from the user and store it in the variable digit
+				
+				printf("\nEnter a number: ");
+				scanf("%d", &digit);
+
+				// Print the reversed number
+				printf("The reversed number is %d\n\n", reverse(digit));
+
+				// pause the program
+				getchar();
 				break;
 				
 			case 3: //Replace bit position

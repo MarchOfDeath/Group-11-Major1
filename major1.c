@@ -4,13 +4,14 @@
 //Add name/EUID
 //Prajwal Katwal/pk0371
 
-#include<stdio.h>
+#include "major1.h"
+
+/*#include<stdio.h>		//REMOVE FOR H FILE
 #include <stdbool.h> //Boolean values
 
 // Header files
-#include "major1.h"
 #include "replace.h"
-#include "palindrome.h"
+#include "palindrome.h"*/
 
 int main(void)
 {

@@ -32,7 +32,7 @@ void replace()
 
     int maskPosition = pow(2, position);
     number = number ^ ((number ^ mask) & maskPosition);
-    //printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
+    printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
 
 
     return;

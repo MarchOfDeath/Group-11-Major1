@@ -1,4 +1,5 @@
 // Created by William Finch for Major Assignment 1 of CSCE 3600
+// Group 11
 
 #include <stdio.h>
 #include <math.h>

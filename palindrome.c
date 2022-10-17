@@ -15,7 +15,7 @@ void palindrome(void)
 		printf("Give a positive integer less than 2 Billiion: ");
 		scanf("%lu", &input);
 		
-		if(input < 2000000000 && input > 0)
+		if(input < 2000000000 && input > 0 && input > 0)
 			exitKey = true;
 		else	
 			printf("Input is Out of Range. Try again.\n");

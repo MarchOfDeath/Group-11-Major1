@@ -4,7 +4,9 @@
 //Add name/EUID
 //Prajwal Katwal/pk0371
 
-#include<stdio.h>
+#include "major1.h"
+
+#include<stdio.h>		//REMOVE FOR H FILE // These are required for running the switch case
 #include <stdbool.h> //Boolean values
 
 // Header files

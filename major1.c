@@ -1,14 +1,14 @@
 //CSCE 3600.002 - Major Assignment 1
 //Samuel Thomas - sjt0134
 //William Finch - wcf0021
-//Add name/EUID
+//Prajwal Katwal/pk0371
 
 #include<stdio.h>
 #include <stdbool.h> //Boolean values
 
 // Header files
 #include "replace.h"
-
+#include "reverse.h"
 int main(void)
 {
 	int input;
@@ -40,7 +40,7 @@ int main(void)
 				scanf("%d", &digit);
 
 				// Print the reversed number
-				printf("The reversed number is %d\n\n", reverse(digit));
+                		reverse(digit);
 
 				// pause the program
 				getchar();

@@ -6,12 +6,13 @@
 
 #include "major1.h"
 
-/*#include<stdio.h>		//REMOVE FOR H FILE
+#include<stdio.h>		//REMOVE FOR H FILE // These are required for running the switch case
 #include <stdbool.h> //Boolean values
 
 // Header files
+#include "header.h"
 #include "replace.h"
-#include "palindrome.h"*/
+#include "palindrome.h"
 
 int main(void)
 {

@@ -9,7 +9,7 @@
 
 // Header files
 #include "major1.h"
-#include "replace.h"
+//#include "replace.h"
 //#include "palindrome.h"
 
 int main(void)

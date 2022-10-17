@@ -6,14 +6,6 @@
 
 #include "major1.h"
 
-#include<stdio.h>		//REMOVE FOR H FILE // These are required for running the switch case
-#include <stdbool.h> //Boolean values
-
-// Header files
-#include "major1.h"
-//#include "replace.h"
-//#include "palindrome.h"
-
 int main(void)
 {
 	int input;
@@ -30,43 +22,45 @@ int main(void)
 	{
 		printf("Enter menu option: \n");
 		printf("(1) Power of 2\n(2) Reverse Bits\n(3) Replace Bit Position\n(4) Palindrome\n(5) Exit\n--> ");
-		scanf("%d", &input);
 		
-		switch(input)
+		if(scanf("%d", &input) == 1) //Checks if input is valid
 		{
-			case 1: //Find Power of 2
-				printf("Fuctionality not complete. Try again later.\n");
-				break;
-				
-			case 2: //Reverse bits
-				// Input a number from the user and store it in the variable digit
-				
-				printf("\nEnter a number: ");
-				scanf("%d", &digit);
+			switch(input)
+			{
+				case 1: //Find Power of 2
+					printf("Fuctionality not complete. Try again later.\n");
+					break;
 
-				// Print the reversed number
-				reverse(digit);
-				printf("The reversed number is %d\n\n", reverse(digit));
+				case 2: //Reverse bits
+					// Input a number from the user and store it in the variable digit
 
-				// pause the program
-				getchar();
-				break;
-				
-			case 3: //Replace bit position
-				replace();
-				break;
-				
-			case 4: //Palindrome check
-				palindrome();
-				break;
-				
-			case 5: //Exit
-				exitKey = true;
-				printf("Exiting Program. Goodbye.\n");
-				break;
-				
-			default:
-				printf("Input Invalid. Try again.\n");
+					printf("\nEnter a number: ");
+					scanf("%d", &digit);
+
+					// Print the reversed number
+					reverse(digit);
+					printf("The reversed number is %d\n\n", reverse(digit));
+
+					// pause the program
+					getchar();
+					break;
+
+				case 3: //Replace bit position
+					replace();
+					break;
+
+				case 4: //Palindrome check
+					palindrome();
+					break;
+
+				case 5: //Exit
+					exitKey = true;
+					printf("Exiting Program. Goodbye.\n");
+					break;
+
+				default:
+					printf("Input Invalid. Try again.\n");
+			}
 		}
 	}
 	

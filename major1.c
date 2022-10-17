@@ -7,6 +7,7 @@
 #include <stdbool.h> //Boolean values
 
 // Header files
+#include "major1.h"
 #include "replace.h"
 #include "palindrome.h"
 #include "reverse.h"

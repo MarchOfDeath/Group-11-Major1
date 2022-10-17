@@ -4,9 +4,7 @@
 //Add name/EUID
 //Prajwal Katwal/pk0371
 
-#include "major1.h"
-
-/*#include<stdio.h>		//REMOVE FOR H FILE
+#include<stdio.h>
 #include <stdbool.h> //Boolean values
 
 // Header files

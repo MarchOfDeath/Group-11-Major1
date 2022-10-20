@@ -20,7 +20,8 @@ replace.c accepts 3 inputs from the user and manipulates the inital number by sw
 
 ### palindrome.c ###
 // what does palindrome.c do
-palindrom.c takes a positive integer less than 2 billion, converts the number into a binary number array.
+
+palindrome.c takes a positive integer less than 2 billion, converts the number into a binary number array.
   - The binary array is reversed into a new array
   - If the original binary array and the reversed binary array are the same, the number is a palindrome
 

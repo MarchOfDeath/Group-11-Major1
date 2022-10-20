@@ -18,8 +18,12 @@ replace.c accepts 3 inputs from the user and manipulates the inital number by sw
 (2) User inputs integer mask from 0-3,000,000,000 this will be the number that will be placed over integer (1) to become a mask
 (3) User inputs integer value from 0-31 this value is the bit location to be flipped
 
+### palindrome.c ###
+// what does palindrome.c do
+palindrom.c takes a positive integer less than 2 billion, converts the number into a binary number array.
+  - The binary array is reversed into a new array
+  - If the original binary array and the reversed binary array are the same, the number is a palindrome
+
 Once the user inputs the required 3 values the program will raise the number 2 to the power of the input value (3) and replacing the bit coensiding with (1) to what the equivallent bit in (2).
 ### Finish Explination ###
 
-### palindrome.c ###
-// what does palindrome.c do

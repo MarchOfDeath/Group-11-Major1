@@ -3,7 +3,12 @@ This is the group project for the 1st Major assignment in 3600
 
 ### major1.c ###
 // What does major1.c do, also indicate what happens in major1.h
+
+
 // how to compile and run
+
+To compile the program in the cell servers, move all files into an empty directory.
+  - 
 
 ### power.c ###
 // What does power.c do

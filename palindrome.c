@@ -1,7 +1,4 @@
-/* Remove for h file
-#include<stdio.h>
-#include <stdbool.h> //Boolean values
-*/
+//Samuel Thomas - sjt0134
 
 void palindrome(void)
 {

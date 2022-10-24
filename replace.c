@@ -25,7 +25,4 @@ void replace()
     unsigned long int maskPosition = position * position;
     number = number ^ ((number ^ mask) & maskPosition);
     printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
-
-
-    return;
 }

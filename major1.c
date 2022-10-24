@@ -37,9 +37,9 @@ int main(void)
 					if(scanf("%d", &input) == 1)
 					{
 						// Print the reversed number
-						reverse(digit);
-						printf("The reversed number is %d\n\n", reverse(digit));
-
+						printf("The reversed number is ");
+						reverse(inupt);
+						
 						// pause the program
 						getchar();
 					}

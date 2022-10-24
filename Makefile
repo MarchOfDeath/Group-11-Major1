@@ -2,7 +2,7 @@ CFLAGS = -O
 CC = gcc
 
 list: major1.o reverse.o replace.o palindrome.o
-	$(CC) $(CFLAGS) -o list major1.o reverse.o replace.o palindrome.o -lm
+	$(CC) $(CFLAGS) -o major1 major1.o reverse.o replace.o palindrome.o -lm
 
 major1.o: major1.c major1.h
 	$(CC) $(CFLAGS) -c major1.c
@@ -17,4 +17,4 @@ palindrome.o: palindrome.c
 	$(CC) $(CFLAGS) -c palindrome.c
 
 clean:
-	rm -f core *.o
+	rm -f major1 *.o

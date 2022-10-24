@@ -1,7 +1,6 @@
 //CSCE 3600.002 - Major Assignment 1
 //Samuel Thomas - sjt0134
 //William Finch - wcf0021
-//Add name/EUID
 //Prajwal Katwal/pk0371
 
 #include "major1.h"

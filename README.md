@@ -17,6 +17,7 @@ To compile the program in the cell servers, move all files into an empty directo
 // What does reverse.c do
 
 ### replace.c ###
+// William Finch
 // what does replace.c do
 replace.c accepts 3 inputs from the user and manipulates the inital number by swapping one of its bits.
 (1) User inputs a positive integer from 0-2,000,000,000 this will be the number being manipulated

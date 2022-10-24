@@ -10,7 +10,7 @@ void replace()
     int position = -1;
 
 	// Prompt for and scan integer to be manipulated
-	printf("Please insert a positive integer less than 2,000,000,000: ");
+	printf("\nPlease insert a positive integer less than 2,000,000,000: ");
 	scanf("%lu", &number);
 
 	// Prompt for and scan integer to be used for manipulation
@@ -26,5 +26,5 @@ void replace()
 	// Compares the number and mask and replaces the number if they are different
         number = number ^ ((number ^ mask) & maskPosition);
 	// Output
-        printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
+        printf("The number you have transformed with bit %d from mask %ld is %ld.\n\n", position, mask, number);
 }

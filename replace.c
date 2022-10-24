@@ -9,20 +9,22 @@ void replace()
     unsigned long int mask = 0;
     int position = -1;
 
+	// Prompt for and scan integer to be manipulated
+	printf("Please insert a positive integer less than 2,000,000,000: ");
+	scanf("%lu", &number);
 
-    printf("Please insert a positive integer less than 2,000,000,000: ");
-    scanf(" %lu", &number);
-    //printf("%lu\n", number); // validates user input
+	// Prompt for and scan integer to be used for manipulation
+        printf("Please insert a mask: ");
+        scanf("%lu", &mask);
 
-    printf("Please insert a mask: ");
-    scanf(" %lu", &mask);
-    //printf("%lu\n", mask);
+	// Prompt for and scan integer to be the bit to be swapped
+        printf("Please input the bit to switch: ");
+        scanf("%d", &position);
 
-    printf("Please input the bit to switch: ");
-    scanf(" %d", &position);
-    //printf("%d", position);
-
-    unsigned long int maskPosition = position * position;
-    number = number ^ ((number ^ mask) & maskPosition);
-    printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
+	// Creates number to indicate the bit to switch
+        unsigned long int maskPosition = pow(2, position);
+	// Compares the number and mask and replaces the number if they are different
+        number = number ^ ((number ^ mask) & maskPosition);
+	// Output
+        printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
 }

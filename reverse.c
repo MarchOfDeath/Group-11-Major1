@@ -1,5 +1,4 @@
-#include "reverse.h"
-#include <stdio.h>
+#include "major1.h"
 
 // The function will reverse the bits of the given unsigned number and return it
 void reverse(unsigned int digit)

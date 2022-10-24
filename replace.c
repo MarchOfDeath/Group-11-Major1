@@ -1,16 +1,7 @@
 // Created by William Finch for Major Assignment 1 of CSCE 3600
 // Group 11
 
-#include <stdio.h>
-#include <math.h>
 #include "major1.h"
-
-void main()
-{
-    replace();
-
-    return;
-}
 
 void replace()
 {
@@ -31,7 +22,7 @@ void replace()
     scanf(" %d", &position);
     //printf("%d", position);
 
-    int maskPosition = pow(2, position);
+    unsigned long int maskPosition = position * position;
     number = number ^ ((number ^ mask) & maskPosition);
     printf("The number you have transformed with bit %d from mask %ld is %ld.\n", position, mask, number);
 

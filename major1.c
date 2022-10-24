@@ -35,14 +35,15 @@ int main(void)
 					// Input a number from the user and store it in the variable digit
 
 					printf("\nEnter a number: ");
-					scanf("%d", &digit);
+					if(scanf("%d", &input) == 1)
+					{
+						// Print the reversed number
+						reverse(digit);
+						printf("The reversed number is %d\n\n", reverse(digit));
 
-					// Print the reversed number
-					reverse(digit);
-					printf("The reversed number is %d\n\n", reverse(digit));
-
-					// pause the program
-					getchar();
+						// pause the program
+						getchar();
+					}
 					break;
 
 				case 3: //Replace bit position

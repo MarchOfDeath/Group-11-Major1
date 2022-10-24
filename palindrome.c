@@ -1,5 +1,7 @@
 //Samuel Thomas - sjt0134
 
+#include "major1.h"
+
 void palindrome(void)
 {
 	unsigned long int input, dupInput, triInput;
@@ -57,6 +59,4 @@ void palindrome(void)
 		printf("%lu is a palindrome\n", triInput);
 	else
 		printf("%lu is not a palindrome\n", triInput);
-	
-	return 0;
 }

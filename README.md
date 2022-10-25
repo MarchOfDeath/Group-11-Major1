@@ -33,8 +33,11 @@ To compile the program in the cell servers, move all files into an empty directo
 // what does replace.c do
 
 replace.c accepts 3 inputs from the user and manipulates the inital number by swapping one of its bits.
+
 (1) User inputs a positive integer from 0-2,000,000,000 this will be the number being manipulated
+
 (2) User inputs integer mask from 0-3,000,000,000 this will be the number that will be placed over integer (1) to become a mask
+
 (3) User inputs integer value from 0-31 this value is the bit location to be flipped
 
 Once the user inputs the required 3 values the program will raise the number 2 to the power of the input value (3) and replacing the bit coensiding with (1) to what the equivallent bit in (2).

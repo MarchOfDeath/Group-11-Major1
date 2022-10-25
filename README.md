@@ -8,7 +8,9 @@ This is the group project for the 1st Major assignment in 3600
 // how to compile and run
 
 To compile the program in the cell servers, move all files into an empty directory.
-  - 
+  - To compile the program, type `make` in the terminal
+  - To run the program, type `./list` in the terminal
+  - To clear the output files, type `make clean` in the terminal
 
 ### power.c ###
 // What does power.c do

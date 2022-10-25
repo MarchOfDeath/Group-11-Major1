@@ -27,7 +27,7 @@ int main(void)
 			switch(input)
 			{
 				case 1: //Find Power of 2
-					printf("Fuctionality not complete. Try again later.\n");
+					powerOfTwo(input);
 					break;
 
 				case 2: //Reverse bits
@@ -38,7 +38,7 @@ int main(void)
 					{
 						// Print the reversed number
 						printf("The reversed number is ");
-						reverse(inupt);
+						reverse(input);
 						
 						// pause the program
 						getchar();

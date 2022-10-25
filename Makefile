@@ -1,4 +1,4 @@
-CFLAGS = -O
+CFLAGS = -Wno-unused-result -O
 CC = gcc
 
 list: major1.o power.o reverse.o replace.o palindrome.o

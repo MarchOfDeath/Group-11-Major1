@@ -4,6 +4,15 @@ This is the group project for the 1st Major assignment in 3600
 ### major1.c ###
 // What does major1.c do, also indicate what happens in major1.h
 
+major1.c acts as a menu for the program. The user enters an input and the outcome of that input triggers a function.
+  - For input `1`, the program runs the power.c function
+  - For input `2`, the program runs the reverse.c function
+  - For input `3`, the program runs the replace.c function
+  - For input `4`, the program runs the palindrome.c function
+  - For input `5`, the program terminates
+  - For any other input, the program issues an error message and loops the menu
+ 
+major.h is the common h file that holds all the standard and user-defined files for the program to operate.
 
 // how to compile and run
 
@@ -20,7 +29,9 @@ To compile the program in the cell servers, move all files into an empty directo
 
 ### replace.c ###
 // William Finch
+
 // what does replace.c do
+
 replace.c accepts 3 inputs from the user and manipulates the inital number by swapping one of its bits.
 (1) User inputs a positive integer from 0-2,000,000,000 this will be the number being manipulated
 (2) User inputs integer mask from 0-3,000,000,000 this will be the number that will be placed over integer (1) to become a mask

@@ -27,7 +27,10 @@ int main(void)
 			switch(input)
 			{
 				case 1: //Find Power of 2
-					powerOfTwo(input);
+					printf("Enter a positive integer less than 2 billion: ");
+					int n;
+					scanf("%d",&n);
+					powerOfTwo(n);
 					break;
 
 				case 2: //Reverse bits

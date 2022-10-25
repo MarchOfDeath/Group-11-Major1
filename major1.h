@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include<math.h>
 
-void powerOfTwo(int n)
+void powerOfTwo(int n);
 void reverse(unsigned int);
 void replace();
 void palindrome();

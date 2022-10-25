@@ -14,11 +14,3 @@ printf("%d is not a power of 2\n",n);
 printf("Next higher integer that is power of 2 is %d\n",next);
 }
 }
-int main()
-{
-printf("Enter a positive integer less than 2 billion: ");
-int n;
-scanf("%d",&n);
-powerOfTwo(n);
-return 0;
-}

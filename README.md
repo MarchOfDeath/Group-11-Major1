@@ -50,7 +50,7 @@ replace.c accepts 3 inputs from the user and manipulates the inital number by sw
 Once the user inputs the required 3 values the program will raise the number 2 to the power of the input value (3) and replacing the bit coensiding with (1) to what the equivallent bit in (2).
 
 ### palindrome.c ###
-//Samuel Thomas
+// Samuel Thomas
 // what does palindrome.c do
 
 palindrome.c takes a positive integer less than 2 billion, converts the number into a binary number array.

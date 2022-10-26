@@ -18,7 +18,7 @@ major.h is the common h file that holds all the standard and user-defined files 
 
 To compile the program in the cell servers, move all files into an empty directory.
   - To compile the program, type `make` in the terminal
-  - To run the program, type `./list` in the terminal
+  - To run the program, type `./major1` in the terminal
   - To clear the output files, type `make clean` in the terminal
 
 ### power.c ###
@@ -37,7 +37,6 @@ To compile the program in the cell servers, move all files into an empty directo
 
 ### replace.c ###
 // William Finch
-
 // what does replace.c do
 
 replace.c accepts 3 inputs from the user and manipulates the inital number by swapping one of its bits.
@@ -51,6 +50,7 @@ replace.c accepts 3 inputs from the user and manipulates the inital number by sw
 Once the user inputs the required 3 values the program will raise the number 2 to the power of the input value (3) and replacing the bit coensiding with (1) to what the equivallent bit in (2).
 
 ### palindrome.c ###
+//Samuel Thomas
 // what does palindrome.c do
 
 palindrome.c takes a positive integer less than 2 billion, converts the number into a binary number array.

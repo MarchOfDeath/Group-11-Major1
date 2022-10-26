@@ -28,8 +28,11 @@ To compile the program in the cell servers, move all files into an empty directo
 // Prajwal Katwal
 // What does reverse.c do
 
+
 -The function will take a given unasigned number and reverse the bit and return it.
+
 -It will use a while loop for the execution
+
 -It will letf shift the reverse number by 1 until the number becomes zero
 
 ### replace.c ###
